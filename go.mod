@@ -11,6 +11,7 @@ require (
 	github.com/andybalholm/cascadia v1.2.0 // indirect
 	github.com/bep/debounce v1.2.0
 	github.com/buckket/go-blurhash v1.1.0
+	github.com/bwmarrin/snowflake v0.3.0
 	github.com/cenk/backoff v2.2.1+incompatible // indirect
 	github.com/cupcake/sigil v0.0.0-20131127230922-6bf9722f2ae8
 	github.com/dhowden/tag v0.0.0-20201120070457-d52dcb253c63
