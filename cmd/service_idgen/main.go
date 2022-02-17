@@ -4,7 +4,6 @@ import (
 	"flag"
 	"fmt"
 	"github.com/bwmarrin/snowflake"
-	"github.com/sirupsen/logrus"
 	"github.com/turt2live/matrix-media-repo/util"
 	"net/http"
 	"os"
@@ -35,7 +34,7 @@ func main() {
 		// Generate a random string to pad out the returned ID
 		r, err := util.GenerateRandomString(32)
 		if err != nil {
-			logrus.Error(err)
+			fmt.Println(err)
 			w.WriteHeader(500)
 			return
 		}
